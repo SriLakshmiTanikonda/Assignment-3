@@ -1,0 +1,394 @@
+
+    * {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h2 {
+      color: rgba(23, 29, 39, 0.897);
+      margin: 10px;
+    }
+
+    nav {
+      background: #ffffff;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 10px;
+      /* width: 100%; */
+      border: 3px solid rgba(14, 35, 87, 0.824);
+      height: auto;
+    }
+
+    .topnav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      background: #1282de83;
+      padding: 10px;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #303971e4;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      height: auto;
+    }
+
+    .topnav .logo {
+      color: #303971e4;
+      font-size: 40px;
+      height: auto;
+    }
+
+    .topnav a:hover {
+      background-color: #3f3d80d1;
+      color: #1282de83;
+      height: auto;
+    }
+
+    .topnav a.active {
+      background-color: #3f3d80d1;
+      color: #1282de83;
+      height: auto;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    section {
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #About {
+      background: #b1e8b6;
+      border: 3px solid rgb(67, 168, 161);
+      margin: 10px;
+      padding: 10px;
+
+    }
+
+    .aboutClass {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #aboutCard {
+      display: flex;
+      align-content: center;
+    }
+
+    img {
+      padding: 20px;
+      background-color: white;
+      /* height: 210px;
+      width: 240px; */
+    }
+
+    #aboutDesc {
+      /* width: 100%; */
+      height: auto;
+      line-height: 30px;
+      color: #1f512a;
+      display: inline-block;
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    #Education {
+      background: rgb(128, 192, 238);
+      border: 3px solid rgb(68, 82, 117);
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .educationCard {
+      border: 2px solid #000;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #eadccb;
+    }
+
+    .educationClass {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: auto;
+      font-size: 20px;
+      height: auto;
+      perspective: 300px;
+      color: #303971e4;
+      margin: 10px;
+      padding: 10px;
+      gap:10px
+    }
+
+    .Projects {
+      /* width: 100%; */
+      height: 100%;
+    }
+
+    #Projects {
+      background: rgba(190, 209, 85, 0.548);
+      border: 3px solid rgb(67, 168, 161);
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .projectClass {
+      flex-direction: row;
+      display: flex;
+      height: auto;
+      margin: 10px;
+    }
+
+    .projectCard {
+      font-size: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+      text-align: center;
+      background-color: #b1e8b6;
+      margin: 0 1em;
+      flex: 25%;
+      border: 3px solid rgb(67, 168, 161);
+    }
+
+    .projectTitle {
+      background-color: #2a613add;
+      color: white;
+      padding: 40px 10px;
+      margin: auto;
+    }
+
+    .projectDesc {
+      text-align: center;
+      padding: 1em;
+    }
+
+    .Experiences {
+      background: #1282de83;
+      /* width: 100%; */
+      height: 100%;
+      border: 3px solid #303971e4;
+    }
+
+    .experienceClass {
+      background: rgb(128, 192, 238);
+      border: 3px solid #303971e4;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .experienceCard {
+      background: #eadccb;
+      color: #303971e4;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .experienceDesc {
+      font-size: 20px;
+      color: #303971e4;
+    }
+
+    .experienceTitle {
+      font-size: 20px;
+    }
+
+    #Blog {
+      background-color: #b1e8b6;
+      padding: 10px;
+      font-size: 20px;
+      color: #346d2b;
+      text-decoration: none;
+      border: 3px solid rgb(67, 168, 161);
+      margin: 10px;
+      height: auto;
+      justify-content: flex-start;
+    }
+
+    .blogClass {
+      font-size: 20px;
+      color: #346431;
+      text-decoration: none;
+    }
+
+    footer {
+      height: auto;
+      /* width: 100%; */
+      padding: 3px;
+      background-color: #b1e8b6;
+      color: #673867e4;
+      text-align: center;
+      justify-content: space-around;
+      font-size: 20px;
+      margin: 10px;
+      border: 3px solid rgb(47, 84, 82);
+    }
+
+    .footerIcons {
+      border-radius: 6px;
+      color: #F8F5F1;
+    }
+
+    @media only screen and (max-width:500px) {
+      .aboutClass {
+        display: grid;
+
+      }
+
+      #aboutCard {
+        display: grid;
+      }
+
+      #aboutDesc {
+        font-size: 20px;
+        width: auto;
+
+      }
+
+      section {
+        display: grid;
+        height: auto;
+      }
+
+      .educationClass {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .projectClass {
+        display: grid;
+      }
+
+      .experienceDesc {
+        height: auto;
+        font-size: 20px;
+      }
+
+
+      #Blog {
+        font-size: 20px;
+        margin: 10px;
+        background-color: rgb(128, 192, 238);
+        border: 3px solid rgb(68, 82, 117);
+      }
+
+      footer {
+        display: grid;
+        height: auto;
+      }
+
+      .projectCard {
+        margin: 1em 0;
+      }
+
+    }
+
+    @media only screen and (max-width:600px) {
+      .aboutClass {
+        display: grid;
+
+      }
+
+      #aboutCard {
+        /* display: grid; */
+        /* width: 100%; */
+        flex-direction: column;
+        height: auto;
+      }
+
+      img {
+        height: 150px;
+        width: 150px;
+      }
+
+      #aboutDesc {
+        font-size: 20px;
+        width: auto;
+
+      }
+
+      #aboutImage {
+        text-align: center;
+      }
+
+      .topnav.responsive {
+        position: relative;
+        flex-direction: column;
+      }
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block !important;
+        text-align: left;
+      }
+
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+
+    }
+
+    @media only screen and (max-width:730px) {
+      .topnav {
+        flex-wrap: wrap;
+        height: unset;
+      }
+    }
+
+    @media only screen and (max-width:300px) {
+      .educationClass {
+        display: grid;
+        height: 500px;
+        /* width: 100%; */
+      }
+
+      .educationCard {
+        width: 250px;
+      }
+
+    }
+
+    @media only screen and (max-width: 500px) {
+      .topnav a:not(:no-button) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+
+      .topnav.responsive {
+        position: relative;
+      }
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+    }

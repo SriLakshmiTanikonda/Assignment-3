@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>SriLakshmi-Portfolio</title>
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="topnav" id="myTopnav">
+    <p class="logo">Tanikonda SriLakshmi</p>
+    <a href="#About">About</a>
+    <a href="#Education">Education</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Experiences">Experiences</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <main>
+    <section id="About">
+      <h2>About Me: </h2>
+      <article id="aboutCard" class="aboutClass">
+        <div id="aboutImage">
+          <img width="200" height="200" src="https://cdn-icons-png.flaticon.com/512/6833/6833591.png">
+        </div>
+        <summary id="aboutDesc">
+          <p>This is Srilakshmi Tanikonda currently pursuing my masters in Computer Science from University of New
+            Haven.I have worked as Devops Engineer for 3 years in TATA CONSULTANCY SERVICES. To increase my skills
+            technically, I decided to Pursue my Masters.My hobbies are Cooking, Listening music and reading Books.My
+            objective is to advance as a DevOps Engineer, contributing to organizational success through active
+            participation in initiatives that promote growth, both personally and professionally.</p>
+        </summary>
+      </article>
+    </section>
+    <section id="Education">
+      <h2>Education: </h2>
+      <div class="educationClass">
+        <article id="edcucationCard1" class="educationCard">
+          <h1 class="educationTitle">
+            Masters
+          </h1>
+          <p class="educationDesc">
+            School:University of New Haven<br>
+            Course: Computer Science<br>
+            Year:2023 - 2025
+          </p>
+        </article>
+        <article id="educationCard2" class="educationCard">
+          <h1 class="educationTitle">
+            Bachelors
+          </h1>
+          <p class="educationDesc">
+            School:Vignan's Foundation for Science Technology and Research<br>
+            Course: Computer Science<br>
+            Year:2016 - 2020
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="Projects">
+      <h2>Projects: </h2>
+      <div class="projectClass">
+        <article id="projectCard1" class="projectCard">
+          <h1 class="projectTitle">Water Plant Management System</h1>
+          <summary class="projectDesc">
+            <p>The objective of the project is to manage all the water plants constructed by an NGO
+              in order to fulfill the needs of people.
+            </p>
+          </summary>
+        </article>
+        <article id="projectCard2" class="projectCard">
+          <h1 class="projectTitle">Sales Prediction</h1>
+          <summary class="projectDesc">
+            <p>
+              The objective of the project is to study the trends of market or stocks to predict the best possible
+              strategy
+              to attain the profits.
+            </p>
+          </summary>
+        </article>
+      </div>
+    </section>
+    <section id="Experiences" class="experienceClass">
+      <h2>Experience: </h2>
+      <article class="experienceCard">
+        <h3 class="experienceTitle"></h3>
+        <summary class="experienceDesc">
+          <ul>
+            <li>
+              <b>Company :</b> Tata Consultancy Services Pvt Ltd
+            </li>
+            <li>
+              <b>Technology :</b> Devops
+            </li>
+            <li>
+              <b>Location :</b> Hyderabad
+            </li>
+            <li>
+              <b>Duration :</b> 3 years
+            </li>
+            <li>
+              <b>Roles : </b> Implement and maintained CI/CD pipelines using Jenkins reducing deployment time by 50%.
+              Implement Infrastructure as Code principles using tools like Terraform, Ansible, or CloudFormation to
+              automate infrastructure configuration.
+            </li>
+            </p>
+        </summary>
+      </article>
+    </section>
+    <!-- <section id="Blog">
+      <h2>Blogs: </h2>
+      <div class="blog">
+        All my blogs are posted in Linkedin.
+      </div>
+    </section> -->
+  </main>
+  <footer>
+    <div id="footerIcons" class="fa fa-phone">&nbsp;&nbsp; +1 (203) 823 - 2948 &nbsp;&nbsp; &nbsp;&nbsp; </div>
+    <div id="footerIcons" class="fa fa-envelope">&nbsp;&nbsp;stani1@unh.newhaven.edu&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div id="footerIcons" class="fa fa-linkedin">&nbsp;&nbsp;<a
+        href="https://www.linkedin.com/in/sri-lakshmi-3463441b3/" style="color: #06010e">Linkedin</a></div>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
